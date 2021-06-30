@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link href='https://api.mapbox.com/mapbox-gl-js/v2.3.1/mapbox-gl.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+
+    <title>Suza news</title>
+</head>
+<body>
+    <!--NAVBAR-->
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+        <div class="container">
+            <a href="#" class="navbar-brand">Suza News</a>
+            <button 
+            class="navbar-toggler" 
+            type="button" 
+            data-bs-toggle="collapse" 
+            data-bs-target="#navmenu "
+            >
+            <span class="navbar-toggler-icon"></span>
+             </button>
+            <div class="collapse navbar-collapse" id="navmenu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                       <a href="#academics" class="nav-link">Academics</a> 
+                    </li>
+                    <li class="nav-item">
+                        <a href="#community" class="nav-link">Community</a> 
+                     </li>
+                     <li class="nav-item">
+                        <a href="#sports" class="nav-link">Sports</a> 
+                     </li>
+                </ul>
+            </div>
+
+        </div>
+ 
+    </nav>
+
+
+ <!--SHOWCASE-->
+ <section class="bg-dark text-light p-5 text-center text-sm-start">
+     <div class="container">
+         <div class="d-sm-flex  ">
+             <div>
+                 <h1>Get the <span class="text-warning">latest news</span> </h1>
+                 <p >
+                    The State University of Zanzibar (SUZA) was established by Act No. 8 of 1999 of the
+                     Zanzibar House of Representatives which was then amended by Act No. 11 of 2009, 
+                     and further re-amended by Act No. 7 of 2016. The latter amendment has justified 
+                     SUZA to merge with other Zanzibar higher learning institutions; these are the then 
+                     Zanzibar Institute of Financial Administration (ZIFA), College of Health Sciences 
+                     (CHS) and the Zanzibar Institute of Tourism Development (ZIToD). His Excellency 
+                     Dr. Ali Mohamed Shein, the President of Zanzibar and Chairman of the Revolutionary
+                      Council is the Chancellor of the University. 
+                 </p>
+                 <button class="btn-primary btn-lg" data-bs-toggle="modal" data-bs-target="#enroll">Start reading</button>
+             </div>
+             <img class="img-fluid w-50 d-none d-sm-block" src="library.jpg" alt="">
+         </div>
+     </div>
+ </section>
+
+
+
+
+ <!--Newsletter-->
+ <section class="bg-primary text-light p-5">
+     <div class="container">
+         <div class="d-md-flex justify-content-betweenalign-item-center">
+             <h3 class="mb-3 mb-md-0">
+                Sign up to get notifications and alert 
+             </h3>
+             <div class="input-group mb-3 new-input">
+                <input type="text" 
+                class="form-control" 
+                placeholder="Enter your email"
+                 aria-label="Recipient's username" 
+                 >
+                <button class="btn btn-dark btn-lg"
+                type="button" >Enter
+                </button>
+              </div>
+         </div>
+     </div>
+ </section>
+
+ <!--Boxes-->
+ <section class="p-5">
+     <div class="container">
+      <div class="row text-center">
+          <div class="col-md">
+            <div class="card bg-dark text-light">
+                 <div class="h1 mb-3">
+                     
+                 <i class="bi bi-newspaper"></i>
+                 </div>
+                 <h3 class="card-title">
+                   Highlights  
+                 </h3>
+                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit placeat corporis distinctio eos quibusdam. Vel?</p>
+                <a href="#" class="btn">Readmore</a>
+            </div>
+          </div>
+          <div class="col-md">
+            <div class="card bg-secondary text-light">
+                <div class="h1 mb-3">
+                    
+                <i class="bi bi-basketball"></i>
+                </div>
+                <h3 class="card-title">
+                  Sports 
+                </h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit placeat corporis distinctio eos quibusdam. Vel?</p>
+               <a href="#" class="btn">Readmore</a>
+           </div> 
+          </div>
+          <div class="col-md">
+            <div class="card bg-dark text-light">
+                <div class="h1 mb-3">
+                    
+                <i class="bi bi-people"></i>
+                </div>
+                <h3 class="card-title">
+                  Community  
+                </h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit placeat corporis distinctio eos quibusdam. Vel?</p>
+               <a href="#" class="btn">Readmore</a>
+           </div>
+          </div>
+      </div>   
+     </div>
+ </section>
+
+
+
+ <!-- Learn section-->
+ <section id="learn" class="p-5">
+     <div class="container">
+         <div class="row align-item-center justify-content-between">
+           <div class="col-md">
+               <img sizes="120px"  src="suza.JPG" alt="">
+           </div>
+           <div class="col-md p-5">
+               <h2>Get campus updates everyday </h2>
+               <p>Lorem ipsum dolor sit amet consectetur
+                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, quod. 
+                   adipisicing elit. Obcaecati provident cumque culpa, numquam harum quisquam?</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum, voluptatibus?
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate qui voluptatem neque nemo nam voluptatibus!
+                </p>
+               <a href="" class="btn btn-light mt-3">
+                   <i class="bi bi-chevron-right">Readmore
+                       
+                   </i>
+
+               </a>
+           </div>
+         </div>
+     </div>
+ </section>
+
+ <section id="learn" class="p-5 bg-dark text-light">
+     <div class="container">
+         <div class="row align-item-center justify-content-between">
+         
+            <div class="col-md p-5">
+              <h2>Its time to verify your meals and accomadation </h2>
+              <p>Lorem ipsum dolor sit amet consectetur
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, quod. 
+                  adipisicing elit. Obcaecati provident cumque culpa, numquam harum quisquam?</p>
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum, voluptatibus?
+                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate qui voluptatem neque nemo nam voluptatibus!
+               </p>
+              <a href="" class="btn btn-light mt-3">
+                  <i class="bi bi-chevron-right">Readmore
+                      
+                  </i>
+
+              </a>
+            </div>
+          <div class="col-md">
+            <img   src="computing.jpg" alt="">
+          </div>
+        </div>
+     </div>
+ </section>
+
+
+ <!--Question accordion-->
+ <section id="questions" class=" p-5">
+      <div class="container">
+          <h2 class="text-center mb-4">
+              Frequent asked questions
+          </h2>
+          <div class="accordion accordion-flush" id="accordionFlushExample">
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="flush-headingOne">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+        How to get push notification
+      </button>
+    </h2>
+    <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="flush-headingTwo">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+        How to register 
+      </button>
+    </h2>
+    <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="flush-headingThree">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+        How to get get new password
+      </button>
+    </h2>
+    <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+    </div>
+  </div>
+</div>
+
+      </div>
+ </section>
+
+ <section id="instuctors" class="p-5 bg-primary">
+     <div class="container">
+         <h2 class="text-center text-white">
+             Our Reporters
+         </h2>
+         <p class="lead text-center text-white mb-5">
+             Our reporters have experience of more than 2years in campus 
+
+         </p>
+         <div class="row g-4">
+             <div class="col-md-6 col-lg-3">
+                 <div class="card-body bg-light">
+                     <div class="card-body text-center">
+                       
+                     <img src="https://randomuser.me/api/portraits/men/15.jpg" class="rounded-circle mb-3" alt="">  
+                     <h3 class="card-title mb-3">
+                       Mark Stanley
+                     </h3>
+                     <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam accusamus dignissimos sunt nam. Illum, ducimus?</p>
+                     <a href="#"><i class="bi bi-twitter text-dark mx-1">
+
+                     </i></a>
+                     <a href="#"><i class="bi bi-facebook text-dark mx-1">
+
+                    </i></a>
+                    <a href="#"><i class="bi bi-instagram text-dark mx-1">
+
+                    </i></a>
+                    <a href="#"><i class="bi bi-linkedin text-dark mx-1">
+
+                    </i></a>
+                     </div>
+
+                 </div>
+             </div>
+
+             <div class="col-md-6 col-lg-3">
+                <div class="card-body bg-light">
+                    <div class="card-body text-center">
+                      
+                    <img src="https://randomuser.me/api/portraits/women/89.jpg" class="rounded-circle mb-3" alt="">  
+                    <h3 class="card-title mb-3">
+                      Grace Davin
+                    </h3>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam accusamus dignissimos sunt nam. Illum, ducimus?</p>
+                    <a href="#"><i class="bi bi-twitter text-dark mx-1">
+
+                    </i></a>
+                    <a href="#"><i class="bi bi-facebook text-dark mx-1">
+
+                   </i></a>
+                   <a href="#"><i class="bi bi-instagram text-dark mx-1">
+
+                   </i></a>
+                   <a href="#"><i class="bi bi-linkedin text-dark mx-1">
+
+                   </i></a>
+                    </div>
+
+                </div>
+            </div>
+
+
+            <div class="col-md-6 col-lg-3">
+                <div class="card-body bg-light">
+                    <div class="card-body text-center">
+                      
+                    <img src="https://randomuser.me/api/portraits/men/13.jpg" class="rounded-circle mb-3" alt="">  
+                    <h3 class="card-title mb-3">
+                      Jasin Jackson
+                    </h3>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam accusamus dignissimos sunt nam. Illum, ducimus?</p>
+                    <a href="#"><i class="bi bi-twitter text-dark mx-1">
+
+                    </i></a>
+                    <a href="#"><i class="bi bi-facebook text-dark mx-1">
+
+                   </i></a>
+                   <a href="#"><i class="bi bi-instagram text-dark mx-1">
+
+                   </i></a>
+                   <a href="#"><i class="bi bi-linkedin text-dark mx-1">
+
+                   </i></a>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-3">
+                <div class="card-body bg-light">
+                    <div class="card-body text-center">
+                      
+                    <img src="https://randomuser.me/api/portraits/women/9.jpg" class="rounded-circle mb-3" alt="">  
+                    <h3 class="card-title mb-3">
+                      Fatima Kaseem
+                    </h3>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam accusamus dignissimos sunt nam. Illum, ducimus?</p>
+                    <a href="#"><i class="bi bi-twitter text-dark mx-1">
+
+                    </i></a>
+                    <a href="#"><i class="bi bi-facebook text-dark mx-1">
+
+                   </i></a>
+                   <a href="#"><i class="bi bi-instagram text-dark mx-1">
+
+                   </i></a>
+                   <a href="#"><i class="bi bi-linkedin text-dark mx-1">
+
+                   </i></a>
+                    </div>
+
+                </div>
+            </div>
+         </div>
+     </div>
+ </section>
+
+ <section class="p-5">
+     <div class="container">
+         <div class="row g-4">
+             <div class="com-md">
+                 <h2 class="text-center mb-4">Contact Info</h2>
+
+                 <ul class="list-group list-group-flush">
+                    <li class="list-group-item">
+                        <span class="fw-bold">
+                           Main Location: 
+                        </span>Tunguu, Zanzibar
+                    </li> 
+                 </ul>
+                 <ul class="list-group list-group-flush">
+                    <li class="list-group-item">
+                        <span class="fw-bold">
+                           Email: 
+                        </span>suzanews@gmail.com
+                    </li> 
+                 </ul>
+                 <ul class="list-group list-group-flush">
+                    <li class="list-group-item">
+                        <span class="fw-bold">
+                           Adress: 
+                        </span>P.O.Box 2510
+                    </li> 
+                 </ul>
+                 <ul class="list-group list-group-flush">
+                    <li class="list-group-item">
+                        <span class="fw-bold">
+                           Telephone No; 
+                        </span>+255752984512
+                    </li> 
+                 </ul>
+             </div>
+              <div class="col-md">
+                  <div id="map"> </div>
+
+              </div>
+         </div>
+     </div>
+ </section>
+ <footer class="p-5 bg-dark text-white 
+ text-center position-relative">
+ <div class="container">
+     <p class="lead">Copyright &copy; 2021 Suza news</p>
+ </div>
+ <a href="#" class="position-absolute bottom-0 end-0 p-5">
+     <i class="bi bi-arrow-up-circle h1"></i>
+ </a>
+
+ </footer>
+
+ 
+<!-- Modal -->
+<div class="modal fade" id="enroll" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p class="lead">Fill this form to get new updates of the campus
+
+          </p>
+          <form >
+             <div class="mb-3">
+                 <label for="first-name" class="col-form-label">
+                     First Name:
+                 </label>
+                 <input type="text" class="form-control" id="first-name">
+             </div> 
+             <div class="mb-3">
+                <label for="first-name" class="col-form-label">
+                    Second Name:
+                </label>
+                <input type="text" class="form-control" id="first-name">
+            </div> 
+            <div class="mb-3">
+                <label for="first-name" class="col-form-label">
+                    Phone Number:
+                </label>
+                <input type="text" class="form-control" id="first-name">
+            </div> 
+            <div class="mb-3">
+                <label for="first-name" class="col-form-label">
+                    Email:
+                </label>
+                <input type="text" class="form-control" id="first-name">
+            </div> 
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src='https://api.mapbox.com/mapbox-gl-js/v2.3.1/mapbox-gl.js'></script>
+    <script>
+        mapboxgl.accessToken = 'pk.eyJ1IjoiZGF2aWQyNzAzIiwiYSI6ImNrcWdnZTdvNzB5eWUydnNjeWQyY3ozcnUifQ.jO6lU510AbEc_VTmRq2jSQ';
+        var map = new mapboxgl.Map({
+        container: 'map',
+        
+        style: 'mapbox://styles/mapbox/streets-v11',
+        center: [-6.199116,39.306007],
+        zoom: 18,
+        });
+     </script>
+    
+    
+</body>
+</html>
